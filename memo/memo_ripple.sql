@@ -1,0 +1,10 @@
+CREATE TABLE memo_ripple(
+	num INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	parent INT NOT NULL,
+	id VARCHAR(20) NOT NULL,
+	name VARCHAR(20) NOT NULL,
+	nick VARCHAR(20) NOT NULL,
+	content TEXT NOT NULL,
+	regist_day DATETIME NOT NULL,
+	INDEX (parent)
+);

@@ -1,0 +1,116 @@
+/*본문 col2 영역의 기본 스타일*/
+#content #col2{
+	width: 837px; /*837(col2)+160(col1)+1(border)=998(content)*/
+	min-height: 600px;
+	float: left;
+}
+
+/*col2영역 타이틀 이미지*/
+#content #col2 #title{
+	width: 96%;
+	height: 30px;
+	margin-left: 15px;
+	margin-top: 45px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*title영역 아래 input 영역*/
+#content #col2 #form_join{
+	width: 96%;
+	height: 300px;/*이 영역안에 요소들이 float할 거라서. 높이를 안주면 height은 0됨.*/
+	margin-left: 15px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*라벨들 영역들*/
+#content #col2 #form_join #join_labels{
+	float: left;
+	width: 120px;
+	height: 250px;
+	background-color: #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*라벨들 영역의 ul*/
+#content #col2 #form_join #join_labels ul{
+	margin-top: 4px;
+}
+
+/*라벨들 영역의 li의 여백*/
+#content #col2 #form_join #join_labels li{
+	padding: 10px;
+}
+
+/*input들 영역*/
+#content #col2 #form_join #join_inputs{
+	float: left;
+	width: 670px;  /*837 * 0.9*/
+	height: 250px;
+}
+
+/*각 input들영역들(li)의 높이값.*/
+#content #col2 #form_join #join_inputs li{
+	width: 100%;
+	height: 29px;
+	border-bottom: 1px solid #dddddd;
+	padding-left: 8px;
+	padding-top: 6px;
+}
+
+/*input요소들*/
+#content #col2 #form_join #join_inputs input{
+	width: 150px;
+	height: 18px;
+}
+
+/*아이디 입력 영역의 부분 스타일*/
+#content #col2 #form_join #join_inputs #id1{
+	float: left;
+}
+
+#content #col2 #form_join #join_inputs #id2{
+	float: left;
+	margin-left: 5px;	
+}
+
+#content #col2 #form_join #join_inputs #id3{
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;	
+}
+
+
+/*닉네임 입력 영역의 부분 스타일*/
+#content #col2 #form_join #join_inputs #nick1{
+	float: left;
+}
+#content #col2 #form_join #join_inputs #nick2{
+	float: left;
+	margin-left: 5px;	
+}
+
+/*휴대폰 입력영역의 가로사이즈를 모두 40px*/
+#content #col2 #form_join #join_inputs input.hp{
+	width: 40px;
+}
+
+/*이메일 입력칸 라로사이즈 모두 120px*/
+#content #col2 #form_join #join_inputs input#email1{
+	width: 120px;
+}
+#content #col2 #form_join #join_inputs input#email2{
+	width: 120px;
+}
+
+
+/*안내메세지 영역*/
+#content #col2 #form_join #join_must{
+	padding-top: 15px; 
+}
+
+/*저장, 취소버튼영역*/
+#content #col2 #join_button{
+	text-align: right;
+	margin-top: 35px;
+	margin-right: 35px;
+}

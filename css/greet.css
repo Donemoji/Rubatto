@@ -1,0 +1,286 @@
+/*본문 col2영역*/
+#content #col2{
+	width: 810px;
+	min-height: 600px;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+/*col2영역의 타이틀 이미지*/
+#content #col2 #title{
+	height: 30px;
+	margin-top: 45px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*search영역*/
+#list_search{
+	height: 30px;
+	padding-top: 10px;
+}
+
+/*게시글 수*/
+#list_search #list_search1{
+	float: left;
+	margin-top: 2px;
+}
+
+/*search라벨*/
+#list_search #list_search2{
+	float: left;
+	margin-top: 4px;
+	margin-left: 300px;
+}
+
+/*카테고리*/
+#list_search #list_search3{
+	float: left;
+	margin-left: 5px;
+	margin-top: 1px;
+}
+
+#list_search #list_search3 select{
+	width: 80px;
+	height: 20px;
+}
+
+/*검색단어*/
+#list_search #list_search4{
+	float: left;
+	margin-left: 3px;
+}
+
+#list_search #list_search4 input{
+	width: 120px;
+	height: 18px;
+}
+
+/*submit버튼 이미지*/
+#list_search #list_search5{
+	float: left;
+	margin-top: 1px;
+	margin-left: 5px;
+}
+
+
+/*표의 제목줄 영역*/
+#list_title{
+	height: 20px;
+	padding: 7px;
+	border-top: 2px solid #aaaaaa;
+	background-color: #eeeeee;
+	margin-bottom: 3px;
+}
+
+/*li요소들이 옆으로 나열되도록 inline으로 변경*/
+#list_title li{ display: inline; }
+
+#list_title #list_title1{
+	margin-left: 5px;
+}
+
+#list_title #list_title2{
+	margin-left: 250px;
+}
+
+#list_title #list_title3{
+	margin-left: 290px;
+}
+
+#list_title #list_title4{
+	margin-left: 32px;
+}
+
+#list_title #list_title5{
+	margin-left: 26px;
+}
+
+
+/*게시글 하단의 페이지번호 스타일*/
+#col2 #page_num{
+	float: left;
+	margin-top: 20px;
+	width: 80%;
+	text-align: center;
+}
+
+/*게시글 하단의 목록/글쓰기버튼 스타일*/
+#col2 #buttons{
+	float: left;
+	width: 18%;
+	margin-top: 10px;
+}
+
+
+/*글쓰기 폼(write_form.php)의 스타일*/
+
+/*글쓰기 영역 제목줄 이미지 영역 */
+#write_form_title{
+	width: 100%;
+	height: 20px;
+	padding-top: 7px;
+	background-color: #eeeeee;
+	margin-top: 20px;
+	text-align: center;
+	border-top: 2px solid #aaaaaa;
+}
+
+/*글작성 영역*/
+#write_area{ 
+	margin-top: 10px;
+	border-bottom: 1px solid #aaaaaa;
+ }
+
+/*닉네임 표시줄*/
+#write_area #write_row1{
+	width: 100%;
+	height: 25px;
+	margin: 2px 0px;
+}
+
+/*제목 입력 줄*/
+#write_area #write_row2{
+	width: 100%;
+	height: 25px;
+	margin: 2px 0px;
+}
+
+/*내용 입력 줄*/
+#write_area #write_row3{
+	width: 100%;
+	height: 250px;
+	margin: 2px 0px;
+}
+
+/*각 줄의 라벨영역(col1)*/
+#write_area .col1{
+	float: left;
+	width: 120px;
+	padding: 5px;
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+/*row3(내용칸)만 높이값 따로 지정*/
+#write_area #write_row3 .col1{
+	height: 220px;	
+}
+
+/*닉네임 표시영역 가로 배치*/
+#write_row1 .col2{
+	display: inline-block;
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 10px; 
+}
+#write_row1 .col3{
+	display: inline-block;
+}
+
+/*제목줄 입력영역*/
+#write_row2 .col2{ padding-top: 3px; }
+
+#write_row2 .col2 input{
+	margin-left: 10px;
+}
+
+/*내용입력 영역*/
+#write_row3 .col2{ padding-top: 3px; }
+
+#write_row3 .col2 textarea{
+	margin-left: 10px;
+}
+
+/*가로선 긋기용 스타일*/
+.write_line{
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+}
+
+
+/*버튼 영역*/
+#col2 #write_buttons{
+	margin-top: 20px;
+	text-align: right;
+}
+
+/*리스트(목록) 보여주는 스타일(list.php)*/
+div#list_content{
+	width: 100%;
+	max-height: 300px;
+}
+
+/*리스트 한줄(항목 하나) 영역 스타일*/
+.list_item{
+	height: 18px;
+	margin-top: 2px;
+	padding: 6px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+/*항목의 컬룸들을 한줄로 오게끔..*/
+.list_item li{
+	float: left;
+}
+
+/*각 항목별 가로 사이즈 지정*/
+.list_item li.list_item1{
+	width: 40px;
+	text-align: center;
+}
+.list_item li.list_item2{
+	width: 560px;
+}
+.list_item li.list_item3{
+	width: 65px;
+	text-align: center;
+}
+.list_item li.list_item4{
+	width: 80px;
+	text-align: center;
+}
+.list_item li.list_item5{
+	width: 40px;
+	text-align: center;
+}
+
+
+/*글 보기 스타일(view.php)*/
+#view_title{
+	margin-top: 20px;
+	height: 18px;
+	border-bottom: 2px solid #aaaaaa;
+	padding: 10px 8px 8px 8px;
+	background-color: #eeeeee;
+	margin-bottom: 5px;
+}
+
+#view_title1{
+	float: left;
+	width: 65%;
+}
+
+#view_title2{
+	float: left;
+	width: 33%;
+	text-align: right;
+}
+
+#view_content{
+	width: 96%;
+	min-height: 200px;
+	padding: 15px;
+	line-height: 150%;
+	border-bottom: 1px solid #cccccc;
+}
+
+#view_button{
+	width: 98%;
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+

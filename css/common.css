@@ -1,0 +1,125 @@
+/*모든 요소들의 기본 마진,패팅 초기화*/
+*{margin: 0; padding: 0;}
+
+/*웹문서의 기본 글꼴과 배경 지정*/
+body{
+	font-family: "돋음", dotum,"굴림", gulim, arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+/*모든 a요소들의 밑줄 제거, 글씨색상 변경*/
+a{ text-decoration: none; color: #555555; }
+
+/*웹문서의 가장 큰 div요소(id=wrap)의 스타일 : 사이즈와 가운데정렬*/
+#wrap{
+	width: 1000px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*header영역(id=header)의 노퓨이값 상단마진.*/
+#header{
+	height: 62px;
+	margin-top: 10px;
+}
+
+/*홈페이지 메인 로고 이이지 와 상단 모토글씨가 가로로 오도록 float속성 */
+#logo{
+	float: left;
+	margin-left: 35px;
+	margin-top:5px;
+}
+
+/*상단 모토 이미지 옆에 로그인/회원가입이 오도록 float*/
+#moto{
+	float: left;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+
+/*우측상단 로기인/회원가입 스타일*/
+#top_login{
+	float: right;
+	margin-right: 20px;
+}
+
+/*header와 nav사이의 간격 10*/
+#menu{
+	margin-top: 10px;
+}
+
+/*nav메뉴들 옆으로 오도록...*/
+.menus{ float: left; }
+
+/*배경이미지 녹색선...가로반복!!!*/
+body{
+	background-image: url(../img/main_bg.gif);
+	background-repeat: repeat-x;
+}
+
+/*메인이미지 사이즈 상단마진 */
+#main_img img{
+	width: 998px;
+	margin-top: 35px;
+}
+
+/*콘텐츠 영역에 대한 스타일*/
+#content{
+	width: 998px;
+	min-height: 600px;
+	overflow: hidden;
+}
+
+/*index.php를 제외한 모든 문서들의 왼쪽 사이드 메뉴 스타일*/
+
+/*모든 ul의 리스트 스타일 제거*/
+ul{ list-style: none; }
+
+/*왼쪽 사이드 nav영역*/
+#content #col1{
+	float: left;
+	width: 160px;
+	min-height: 600px;
+	margin-top: 36px;
+	border-right: 1px solid #dddddd;
+}
+
+/*col1영역 안에 메뉴타이틀과 메뉴리스트들이 왼쪽에서 살짝 떨어지도록..*/
+#left_menu{
+	width: 92%;
+	margin-left: 10px;
+}
+
+/*왼쪽 메뉴 타이틀영역*/
+#left_menu #sub_title{
+	padding-top: 10px;
+	height: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*메뉴 타이틀 이미지 왼쪽 살짝 떨어지기*/
+#left_menu #sub_title img{ padding-left: 10px; }
+
+/*메뉴 타이틀과 리스트들이 너무 붙어있어서..*/
+#left_menu ul{
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+/*리스트들이 너무 여백이 없어서 ...패딩적용*/
+#left_menu li{
+	padding: 5px;
+}
+
+
+/*float영향을 없애는 영역*/
+.clear{
+	clear: both;
+}
+
+
+
+

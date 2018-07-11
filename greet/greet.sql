@@ -1,0 +1,12 @@
+CREATE TABLE greet(
+	num INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	id VARCHAR(20) NOT NULL,
+	name VARCHAR(20) NOT NULL,
+	nick VARCHAR(20) NOT NULL,
+	subject VARCHAR(80) NOT NULL,
+	content TEXT NOT NULL,
+	regist_day DATETIME,
+	hit INT,
+	is_html CHAR(1),
+	INDEX (id)
+);

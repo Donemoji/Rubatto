@@ -1,0 +1,129 @@
+/*본문 col2 영역 기본 스타일*/
+#content #col2{
+	width: 810px; /*왼쪽마진 15px고려*/
+	margin-left: 15px;
+	float: left;
+	min-height: 600px;
+}
+
+/*col2의 타이틀 이미지*/
+#content #col2 #title{
+	height: 30px;
+	margin-top: 45px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*메모글 작성 영역*/
+#memo_row1{
+	height: 155px;
+	border-bottom: 1px solid #dddddd;
+}
+
+/*닉네임표시 영역*/
+#memo_row1 #memo_nick{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*메모입력 textarea영역*/
+#memo_row1 #memo1{
+	float: left;
+}
+/*서밋용 이미지버튼*/
+#memo_row1 #memo2{
+	float: left;
+	margin-left: 5px;
+}
+
+/*메모글 목록(list) 스타일*/
+
+/*메모글 목록 제목 영역*/
+.memo_list_title{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+/*메모글 목록 제목 영역의 ul*/
+.memo_list_title ul{ margin-left: 5px; }
+
+/*메모글 목록 제목 영역의 li*/
+.memo_list_title li{ display: inline; }
+
+/*메모글 목록 제목 영역의 li간 간격 */
+.memo_list_title .list_title2{ margin-left: 10px; }
+.memo_list_title .list_title3{ margin-left: 20px; }
+.memo_list_title .list_title4{ margin-left: 500px; }
+
+/*메모글 목록 콘텐츠 영역*/
+.memo_list_content{
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 800px;
+}
+
+/*페이지 번호 가운데로..*/
+#page_num{
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*댓글 영역 스타일*/
+.reply{
+	margin-top: 5px;
+}
+
+/*댓글 라벨 영역*/
+.reply_label{
+	float: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*댓글 목록 과 작성영역 (회색배경)*/
+.reply_area{
+	float: left;
+	padding: 10px;
+	width: 90%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background-color: #eeeeee;
+}
+
+/*댓글 목록 요소 영역*/
+.reply_list{
+	margin-bottom: 5px;
+}
+
+/*댓글 목록 영역중에서 제목줄 영역*/
+.reply_list_title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*댓글 목록 영역중에서 제목줄 영역 li*/
+.reply_list_title li{ display: inline; }
+
+/*댓글 목록 영역중에서 제목줄 영역 li의 간격*/
+.reply_list_title li.list_title2{
+	margin-left: 15px;
+}
+
+.reply_list_title li.list_title3{
+	margin-left: 30px;
+}
+
+/*댓글 목록 콘텐츠 영역*/
+.reply_list_content{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+
+/*댓글 작성영역 왼쪽 마진*/
+.reply_write{
+	margin-left: 10px;
+}
